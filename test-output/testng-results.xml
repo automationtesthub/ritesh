@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20607" started-at="2019-06-29T07:52:03Z" finished-at="2019-06-29T07:52:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20607" started-at="2019-06-29T07:52:03Z" finished-at="2019-06-29T07:52:24Z">
+      <class name="com.vtiger.tests.E2E">
+        <test-method status="PASS" signature="StartApp()[pri:0, instance:com.vtiger.tests.E2E@a3e297]" name="StartApp" is-config="true" duration-ms="3560" started-at="2019-06-29T07:52:12Z" finished-at="2019-06-29T07:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartApp -->
+        <test-method status="PASS" signature="createLead()[pri:0, instance:com.vtiger.tests.E2E@a3e297]" name="createLead" duration-ms="5573" started-at="2019-06-29T07:52:16Z" finished-at="2019-06-29T07:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.vtiger.tests.E2E@a3e297]" name="tierDown" is-config="true" duration-ms="2870" started-at="2019-06-29T07:52:21Z" finished-at="2019-06-29T07:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- com.vtiger.tests.E2E -->
+      <class name="com.vtiger.tests.LoginTest">
+        <test-method status="PASS" signature="StartApp()[pri:0, instance:com.vtiger.tests.LoginTest@eaafa6]" name="StartApp" is-config="true" duration-ms="4643" started-at="2019-06-29T07:52:03Z" finished-at="2019-06-29T07:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartApp -->
+        <test-method status="PASS" signature="validateInvalidLogin()[pri:0, instance:com.vtiger.tests.LoginTest@eaafa6]" name="validateInvalidLogin" duration-ms="754" started-at="2019-06-29T07:52:08Z" finished-at="2019-06-29T07:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidLogin -->
+        <test-method status="PASS" signature="validateLogo()[pri:0, instance:com.vtiger.tests.LoginTest@eaafa6]" name="validateLogo" duration-ms="65" started-at="2019-06-29T07:52:09Z" finished-at="2019-06-29T07:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:com.vtiger.tests.LoginTest@eaafa6]" name="validateTitle" duration-ms="368" started-at="2019-06-29T07:52:09Z" finished-at="2019-06-29T07:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="validatevalidLogin()[pri:0, instance:com.vtiger.tests.LoginTest@eaafa6]" name="validatevalidLogin" duration-ms="1709" started-at="2019-06-29T07:52:09Z" finished-at="2019-06-29T07:52:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatevalidLogin -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.vtiger.tests.LoginTest@eaafa6]" name="tierDown" is-config="true" duration-ms="1033" started-at="2019-06-29T07:52:11Z" finished-at="2019-06-29T07:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- com.vtiger.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
